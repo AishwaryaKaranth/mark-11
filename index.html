@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lucky Birthday</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Is your birthday lucky?</h1>
+      <form class="form">
+        <div class="container">
+          <label>Enter your birthday:</label><br />
+          <input type="date" class="birthday" />
+        </div>
+        <div class="container">
+          <label>Enter your lucky number:</label><br />
+          <input type="number" class="luckyNumber" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="result-container">
+        <h2 id="loading-text"></h2>
+        <h2 id="result-text"></h2>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
